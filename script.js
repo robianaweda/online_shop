@@ -7,6 +7,7 @@ const products = [
         category: "alquran",
         price: 125000,
         description: "Al-Qur'an dengan panduan tajwid warna, ukuran A5",
+        image: "images/products/Al Qur'an Tajwid.png",
         icon: "fas fa-book-quran",
         badge: "Best Seller"
     },
@@ -16,6 +17,7 @@ const products = [
         category: "alquran",
         price: 150000,
         description: "Al-Qur'an terjemah bahasa Indonesia lengkap",
+        image: "images/products/Al Qur'an Terjemah.png",
         icon: "fas fa-book-quran",
         badge: null
     },
@@ -25,6 +27,7 @@ const products = [
         category: "alquran",
         price: 75000,
         description: "Al-Qur'an praktis ukuran saku untuk traveling",
+        image: "images/products/Al Qur'an Mini.png",
         icon: "fas fa-book-quran",
         badge: "New"
     },
@@ -34,6 +37,7 @@ const products = [
         category: "alquran",
         price: 200000,
         description: "Al-Qur'an tajwid dengan warna rainbow premium",
+        image: "images/products/Al Qur'an Rainbow.png",
         icon: "fas fa-book-quran",
         badge: "Premium"
     },
@@ -45,6 +49,7 @@ const products = [
         category: "kitab",
         price: 350000,
         description: "Kitab hadis Shahih Bukhari lengkap 9 jilid",
+        image: "images/products/Shahih Bukhari.png",
         icon: "fas fa-book",
         badge: "Best Seller"
     },
@@ -54,6 +59,7 @@ const products = [
         category: "kitab",
         price: 320000,
         description: "Kitab hadis Shahih Muslim lengkap",
+        image: "images/products/Shahih Muslim.png",
         icon: "fas fa-book",
         badge: null
     },
@@ -63,6 +69,7 @@ const products = [
         category: "kitab",
         price: 95000,
         description: "Taman orang-orang shalih, terjemahan lengkap",
+        image: "images/products/Riyadhus Shalihin.png",
         icon: "fas fa-book",
         badge: null
     },
@@ -72,6 +79,7 @@ const products = [
         category: "kitab",
         price: 180000,
         description: "Fiqih Sunnah karya Sayyid Sabiq 5 jilid",
+        image: "images/products/Fikih Sunnah.png",
         icon: "fas fa-book",
         badge: "Popular"
     },
@@ -81,6 +89,7 @@ const products = [
         category: "kitab",
         price: 85000,
         description: "Kumpulan hadis hukum dengan terjemahan",
+        image: "images/products/Bulughul Maram.png",
         icon: "fas fa-book",
         badge: null
     },
@@ -92,6 +101,7 @@ const products = [
         category: "sajadah",
         price: 165000,
         description: "Sajadah import Turkey motif masjid Nabawi",
+        image: "images/products/Sajadah Turkey Premium.png",
         icon: "fas fa-pray",
         badge: "Premium"
     },
@@ -101,6 +111,7 @@ const products = [
         category: "sajadah",
         price: 45000,
         description: "Sajadah lipat praktis dengan tas",
+        image: "images/products/Sajadah Portable.png",
         icon: "fas fa-pray",
         badge: null
     },
@@ -110,6 +121,7 @@ const products = [
         category: "sajadah",
         price: 35000,
         description: "Sajadah dengan motif edukatif untuk anak",
+        image: "images/products/Sajadah Anak.png",
         icon: "fas fa-pray",
         badge: "New"
     },
@@ -119,6 +131,7 @@ const products = [
         category: "sajadah",
         price: 125000,
         description: "Sajadah tebal dan empuk, nyaman untuk sujud",
+        image: "images/products/Sajadah Tebal Empuk.png",
         icon: "fas fa-pray",
         badge: "Best Seller"
     },
@@ -130,6 +143,7 @@ const products = [
         category: "pakaian",
         price: 185000,
         description: "Sarung motif tradisional kualitas premium",
+        image: "images/products/Sarung Atlas Premium.png",
         icon: "fas fa-tshirt",
         badge: "Premium"
     },
@@ -139,6 +153,7 @@ const products = [
         category: "pakaian",
         price: 95000,
         description: "Sarung Wadimor original berbagai motif",
+        image: "images/products/Sarung Wadimor.png",
         icon: "fas fa-tshirt",
         badge: null
     },
@@ -148,6 +163,7 @@ const products = [
         category: "pakaian",
         price: 145000,
         description: "Baju koko lengan panjang bahan katun premium",
+        image: "images/products/Koko Putih Lengan Panjang.png",
         icon: "fas fa-tshirt",
         badge: "Best Seller"
     },
@@ -157,6 +173,7 @@ const products = [
         category: "pakaian",
         price: 215000,
         description: "Gamis pria bahan katun premium nyaman",
+        image: "images/products/Gamis Pria Dewasa.png",
         icon: "fas fa-tshirt",
         badge: null
     },
@@ -166,6 +183,7 @@ const products = [
         category: "pakaian",
         price: 35000,
         description: "Peci songkok hitam polos kualitas terbaik",
+        image: "images/products/Peci Songkok Hitam.png",
         icon: "fas fa-tshirt",
         badge: null
     },
@@ -177,6 +195,7 @@ const products = [
         category: "aksesori",
         price: 55000,
         description: "Tasbih kayu kokka 99 butir premium",
+        image: "images/products/Tasbih Kayu 99.png",
         icon: "fas fa-hand-holding-heart",
         badge: null
     },
@@ -186,6 +205,7 @@ const products = [
         category: "aksesori",
         price: 45000,
         description: "Tasbih digital counter otomatis dengan LED",
+        image: "images/products/Tasbih Digital.png",
         icon: "fas fa-hand-holding-heart",
         badge: "New"
     },
@@ -195,6 +215,7 @@ const products = [
         category: "aksesori",
         price: 275000,
         description: "Jam adzan digital dengan arah kiblat",
+        image: "images/products/Jam Adzan Digital.png",
         icon: "fas fa-hand-holding-heart",
         badge: "Popular"
     },
@@ -204,6 +225,7 @@ const products = [
         category: "aksesori",
         price: 125000,
         description: "Mukenah katun jepang motif cantik",
+        image: "images/products/Mukena Dewasa.png",
         icon: "fas fa-hand-holding-heart",
         badge: null
     },
@@ -213,6 +235,7 @@ const products = [
         category: "aksesori",
         price: 25000,
         description: "Buku doa Al-Ma'tsurat ukuran saku",
+        image: "images/products/Al-Ma'tsurat Saku.png",
         icon: "fas fa-hand-holding-heart",
         badge: null
     },
@@ -222,6 +245,7 @@ const products = [
         category: "aksesori",
         price: 85000,
         description: "Parfum minyak wangi non alkohol 12ml",
+        image: "images/products/Parfum Arab Non Alkohol.png",
         icon: "fas fa-hand-holding-heart",
         badge: "Best Seller"
     }
@@ -270,20 +294,9 @@ function createProductCard(product) {
     const card = document.createElement('div');
     card.className = 'product-card';
 
-    const gradients = [
-        'linear-gradient(135deg, #667eea 0%, #764ba2 100%)',
-        'linear-gradient(135deg, #f093fb 0%, #f5576c 100%)',
-        'linear-gradient(135deg, #4facfe 0%, #00f2fe 100%)',
-        'linear-gradient(135deg, #43e97b 0%, #38f9d7 100%)',
-        'linear-gradient(135deg, #fa709a 0%, #fee140 100%)',
-        'linear-gradient(135deg, #30cfd0 0%, #330867 100%)'
-    ];
-
-    const randomGradient = gradients[Math.floor(Math.random() * gradients.length)];
-
     card.innerHTML = `
-        <div class="product-image" style="background: ${randomGradient}">
-            <i class="${product.icon}"></i>
+        <div class="product-image">
+            <img src="${product.image}" alt="${product.name}" loading="lazy">
             ${product.badge ? `<span class="product-badge">${product.badge}</span>` : ''}
         </div>
         <div class="product-info">
@@ -381,7 +394,7 @@ function updateCart() {
         cartItems.innerHTML = cart.map(item => `
             <div class="cart-item">
                 <div class="cart-item-image">
-                    <i class="${item.icon}"></i>
+                    <img src="${item.image}" alt="${item.name}">
                 </div>
                 <div class="cart-item-info">
                     <div class="cart-item-name">${item.name}</div>
